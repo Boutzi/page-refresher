@@ -56,7 +56,7 @@ webdriver-manager==4.0.2
 2. **Run the Script:**
 
    ```bash
-   python page_refresher.py
+   python main.py
    ```
 
 3. **Output:**
