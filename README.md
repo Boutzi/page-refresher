@@ -51,7 +51,7 @@ webdriver-manager==4.0.2
 ## Usage
 
 1. **Edit the Script:**
-   Open the `page_refresher.py` file and replace `https://your-website` with the URL of the webpage you want to refresh.
+   Open the `main.py` file and replace `https://your-website` with the URL of the webpage you want to refresh.
 
 2. **Run the Script:**
 
