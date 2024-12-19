@@ -12,14 +12,14 @@ url = "https://your-website" # your website here
 stop = False
 
 def on_press(key):
-    global stop
-    if key == keyboard.Key.esc:  
-        stop = True
-        return False
+  global stop
+  if key == keyboard.Key.esc:  
+      stop = True
+      return False
 
 def refreshPage(driver):
-    driver.refresh()
-    return driver.page_source
+  driver.refresh()
+  return driver.page_source
   
 def main():
   global stop
