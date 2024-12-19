@@ -69,7 +69,7 @@ webdriver-manager==4.0.2
 
 4. **Stop the Script:**
 
-   `CTRL + C`
+   Press `ESCAPE` or `CTRL + C`
 
 ## Optional Configurations
 

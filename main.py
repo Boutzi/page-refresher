@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-url = "https://your-website" # your website here
+url = "https://github.com/Boutzi" # your website here
 
 stop = False
 
