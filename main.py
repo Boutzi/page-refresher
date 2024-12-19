@@ -7,6 +7,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
+url = "https://your-website" # your website here
+
 stop = False
 
 def on_press(key):
@@ -38,7 +40,7 @@ def main():
   caps["pageLoadStrategy"] = "eager"
 
   driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-  driver.get("https://your-website") # your website here
+  driver.get(url)
 
   listener = keyboard.Listener(on_press=on_press)
   listener.start()
